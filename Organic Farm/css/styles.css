@@ -1,0 +1,312 @@
+body {
+    font-family: "Montserrat";
+}
+
+
+#title {
+    background-color: rgb(45, 200, 45);
+}
+
+#title .container-fluid{
+    padding: 3% 15% 9%;
+    margin: 0;
+}
+
+.nav1{
+    margin: -4% -18% 1%;
+    text-align: center;
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+    font-weight: bold;
+    
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.collapse-burger{
+    padding: 0;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.head1 {
+    font-family: "Montserrat-Black";
+    font-weight: bolder;
+    color: white;
+    margin-top: 5rem;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.download-button{
+    margin: 3rem 1rem 1rem 0;
+    font-family: "Montserrat-Black";
+
+    /* transition-duration: 10s;
+    transition-delay: 10s; */
+}
+
+.download-button:hover {
+    transform: scale(1.05);
+}
+
+
+.home-img{
+    position: absolute;
+    width: 115%;
+    height: 120%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 10%;
+    /* transform: rotate(0); */
+    /* right: 10%; */
+}
+
+@media (max-width: 1030px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        flex: 0px;
+    }
+
+    /* .home-img{
+        position: static;
+        transform: rotate(0);
+    } */
+
+
+}
+
+@media (max-width: 575px) {
+
+    .download-button {
+        block-size: 2.5rem;
+        inline-size: 9rem;
+        font-size: 1rem;
+    }
+    
+}
+
+
+
+/* Feature Section */
+
+#features{
+    position: relative;
+    padding: 2% 15%;
+    background-color: white;
+    z-index: 1;
+    /* margin : 10rem 10rem */
+}
+
+
+.feature-box{
+    text-align: center;
+    padding : 3rem;
+}
+
+h3{
+    font-family: "Montserrat-Black";
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
+
+.feature-box-3 h3 {
+    padding: 0;
+}
+
+.icon{
+    color: rgb(76, 197, 76);
+    padding: 1rem;
+    transition-duration: 100ms;
+    transition-delay: 100ms;
+}
+
+.icon:hover {
+    color:rgb(45, 200, 45);
+    transform: scale(1.15);
+}
+
+/* Testimonial Section */
+
+
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: rgb(45, 200, 45);
+}
+
+#testimonials h2 {
+    padding: 4rem 12rem ;
+    font-family: "Montserrat-Bold";
+    font-size: 2.5rem;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10rem;
+    border-radius: 80%;
+    margin-top: 0rem;
+}
+
+#testimonials em {
+    margin-left: 1rem;
+    color: white;
+    text-decoration: underline;
+}
+
+#press{
+    background-color: rgb(45, 200, 45);
+    text-align: center;
+}
+
+.press-logos{
+    width: 12%;
+    margin: 3rem;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 5rem;
+    text-align: center;
+}
+
+.pricing-h2{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+
+.pricing-col {
+    padding: 2rem 0.9rem;
+}
+
+#pricing .card {
+    /* max-height: 30rem; */
+    table-layout: fixed;
+    height: 22rem;
+}
+
+.card .btn-block:hover {
+    transform: scale(1.05);
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: rgb(45, 200, 45);
+    text-align: center;
+    padding: 3rem 0 4.5rem 0;
+    /* font-family: "Montserrat-Black";
+    font-weight: bolder;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5; */
+}
+
+.cta-container {
+    margin: 0 27rem;
+    font-family: "Montserrat-Black";
+    font-weight: bolder;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* @media (max-width: 1030px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        flex: 0px;
+    }
+
+    .home-img{
+        position: static;
+        transform: rotate(0);
+    } 
+
+
+} */
+
+
+/* Contact Us */
+
+
+.contact-us-img {
+    
+    background-color: white;
+    margin: 4rem 2rem 2rem 2rem;
+}
+
+#ContactUs {
+    /* background-image: url(https://cdn.pixabay.com/photo/2016/11/22/19/31/tea-plantation-1850217__340.jpg); */
+    text-align: left;
+    font-family: "Montserrat-Black";
+}
+
+/* #ContactUs .row ol div{
+    text-align: center;
+} */
+
+#ContactUs .row ul {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.contact-icon{
+    padding: 0 0.5rem 1rem 0.5rem;
+}
+
+
+.contact-icon:hover {
+    transform: scale(1.7);
+}
+
+
+.icon-fb {
+    color: #3b5998;
+}
+
+.icon-twitter {
+    color: #00acee;
+}
+
+.icon-insta {
+    color: #fb3958
+}
+
+.icon-env {
+    color: #D44638;
+}
+
+
+
+#footer {
+    text-align: center;
+    /* margin: 3rem 0 2rem 0; */
+    color: white;
+}
+
